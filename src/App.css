@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  background-color: cornflowerblue;
+}
+
+.header a {
+  margin-right: 2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header a:last-child {
+  margin-right: 0;
+}
+
+.header a:hover {
+  color: #129;
+}
+
+.header a.active-link {
+  color: #129;
+  text-decoration: underline;
+}
